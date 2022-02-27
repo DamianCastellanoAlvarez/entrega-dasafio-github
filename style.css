@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.icono-inicio img{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    float: left;
+}
+
+
+
+.iconos-redes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-decoration: none;
+    list-style: none;
+    justify-content: right;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./tipografias/Roboto/Roboto-Regular.ttf);
+    color: #696E5E;
+    
+}
+
+.menu a{
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    src: url(./tipografias/Roboto/Roboto-Regular.ttf);
+    color: #696E5E;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 768px){
+    .menu{
+        display: grid;
+        grid-template-columns: 20vw;
+        margin-right: 50px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .menu{
+        display: grid;
+        grid-template-columns: 50vw;
+        margin-top: 20px;
+    }
+    .iconos-redes{
+        margin-top: 150px;
+    }
+}
+
+
+.imagen-inicio{
+    margin-top: 100px;
+}
+
+
+.imagen-inicio img{
+    width: 100%; 
+    margin: 0 auto;
+    background-size: cover;
+}
+
+
+
+
+/* PRODUCTOS */
+
+
+.productos-p p{
+    float: left;
+    font-size: 20px;
+    font-family: 'Roboto';
+    src: url(./tipografias/Roboto/Roboto-Regular.ttf);
+    color: #696E5E;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.contenedor-productos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .contenedor-productos{
+        display: grid;
+        grid-template-columns: 20vw;
+        margin-right: 50px;
+        font-size: 25px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 320px){
+    .contenedor-productos{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+}
+
+
+.boton{
+    width: 300px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+.boton img{
+    float:right;
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pie-pagina{
+    background-color: #696E5E;
+    text-align:center;
+    padding: 15px;
+    color:white;
+    font-family: 'Display';
+    src: url(./tipografias/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+    font-size: 18px;
+    margin-top: 100px;
+    border-bottom: none;
+}
+
+@font-face {
+    font-family: 'Display';
+    src: url(./tipografias/Roboto/Roboto-Regular.ttf);
+    color: #696E5E;
+}
+
+@media only screen and (max-width: 768px){
+    .pie-pagina{
+        display: grid;
+        grid-template-columns: 100%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .pie-pagina{
+        display: grid;
+        grid-template-columns: 100%;
+        font-size: 8px;
+    }
+    
+}
+
+
+
